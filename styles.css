@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+/* setting the background image */
+.main{
+    background-image: url(./images/netflix-background.jpeg);
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    background-position: center center;
+    
+}
+
+/*  styling for background radial gradient */
+.main .box{
+    
+    height: 85vh;
+    width: 100%;
+    background-image: radial-gradient(transparent, black);
+    position: absolute;
+    top: 0;
+}
+
+/* styling for navbar */
+.main nav{
+    width: 80vw;
+    margin: auto;
+    height: 50px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+/* styling for langunge selecting option */
+#lang-button button{
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    height: 35px;
+    padding: 5px;
+}
+
+#dd{
+    background: gray;
+}
+
+.r-b{
+    padding-right: 15px;
+}
+
+
+/* styling for content in top */
+.content{
+    height: calc(100% - 62px);
+    color: white;
+    position: relative;
+    flex-direction: column;
+    font-family: 'Martel Sans', sans-serif;
+    gap: 20px;
+    padding:29px;
+}
+
+.content> :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.content> :nth-child(2){
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.content> :nth-child(3){
+    font-size: 19.5px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+#ad-box{
+    
+    position: relative;
+    z-index: 10;
+    height: 140px;
+    top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin: auto;
+    background-image: radial-gradient( 51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100% );
+    box-shadow: 0px -8px 25px rgba(0, 0, 0, 0.5);
+    gap: 20px;
+}
+
+#pop-img img{
+    width: 100px;
+}
+
+#ad-box-cont> :nth-child(1){
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#ad-box-cont> :nth-child(2){
+    font-size: 15px;
+}
+
+.icon-blue{
+    color: rgb(62, 90, 226);
+    font-weight: bolder;
+}
+
+
+/* styling for input and get stared button */
+.sub1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.sub1 input{
+    width: 410px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: none;
+    
+}
+
+.sub1 button{
+    height: 50px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+/* styling for gray line after every content break */
+.line{
+    height: 8px;
+    background-color: rgb(83, 81, 81); 
+    position: relative;
+    z-index: 30;  
+}
+
+/* styling for content-1 */
+#content-1{
+    height: 550px;
+    max-width: 75vw;
+    margin: auto;
+    
+      
+}
+
+
+
+#con-1-left :first-child{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#con-1-left :nth-child(2){
+    font-size: 23px;
+    font-weight: 400;
+}
+
+#con-1-right{
+    position: relative;
+}
+
+
+#con-1-right img{
+    width: 550px;
+    position: relative;
+    z-index: 1;
+}
+
+#con-1-right video{
+    position: absolute;
+    top: 75px;
+    right: 80px;
+    width: 390px;
+    height: 250px;
+    object-fit: contain;
+}
+
+/* styling for content-2 */
+#content-2{
+    height: 550px;
+    max-width: 75vw;
+    margin: auto;
+      
+}
+
+#con-2-right :first-child{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#con-2-right :nth-child(2){
+    font-size: 23px;
+    font-weight: 400;
+}
+
+#con-2-left{
+    position: relative;
+}
+
+
+#con-2-left img{
+    width: 500px;
+    position: relative;
+    z-index: 1;
+}
+
+#con-2-left video{
+    position: absolute;
+    top: 12px;
+    right: 110px;
+    width: 300px;
+    height: 250px;
+    object-fit: contain
+
+}
+
+/* styling for content-3 */
+#content-3{
+    height: 550px;
+    max-width: 75vw;
+    margin: auto;
+      
+}
+
+#con-3-left :first-child{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#con-3-left :nth-child(2){
+    font-size: 23px;
+    font-weight: 400;
+}
+
+#con-3-right{
+    position: relative;
+}
+
+
+#con-3-right img{
+    width: 500px;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+/* styling for content-4*/
+#content-4{
+    height: 550px;
+    max-width: 75vw;
+    margin: auto;
+    
+      
+}
+
+#con-4-right :first-child{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#con-4-right :nth-child(2){
+    font-size: 23px;
+    font-weight: 400;
+}
+
+#con-4-left{
+    position: relative;
+    margin-top: -50px;
+}
+
+
+#con-4-left img{
+    width: 550px;
+    position: relative;
+    z-index: 1;
+}
+
+/* styling for top box insde the content-4 */
+#top-box{
+    position: absolute;
+    z-index: 10;
+    height: 100px;
+    width: 300px;
+    top: 50px;
+    top: 285px;
+    left: 120px;
+    background-color: black;
+    border: 2px solid gray;
+    border-radius: 13px;
+    padding: 10px;
+}
+
+#sm-img img{
+    width: 50px;
+}
+
+#top-box :nth-child(3) button{
+    background: transparent;
+    border: none;
+    
+}
+
+#top-box :nth-child(3) button span:hover{
+    color: rgb(29, 70, 220);
+    
+}
+
+#top-box :nth-child(3) button span{
+    color: white;
+
+}
+
+.icon-100{
+    font-size: 30px;
+}
+
+#top-box :nth-child(2) :nth-child(1){
+    font-weight: bold;
+}
+
+#top-box :nth-child(2) :nth-child(2){
+    font-size: 13px;
+    color: rgb(29, 70, 220);
+    font-weight: 600;
+}
+
+
+/* accordian h2 styling */
+#exp-text{
+    background-color: balck;
+    margin: auto;
+    padding: 34px;
+}
+
+
+/* accordian styling */
+.accordion{
+    --bs-accordion-btn-bg: #2d2d2d;
+    --bs-accordion-bg: #2d2d2d; 
+    --bs-accordion-active-bg: #2d2d2d;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-btn-icon-color: white;
+}
+
+
+/* accordian button styling */
+.acc-button{
+
+    width: 80vw;
+    height: 80px;
+    font-size: 22px;
+    font-weight: 500;
+    
+}
+
+
+
+.acc-body{
+    width: 80vw;
+    /*background-color: rgb(66, 65, 65); */
+    font-size: 19px;
+    font-weight: 500;
+}
+
+
+/* last heading and input styling */
+#las-con span{
+    font-size: 19.5px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#las-in input{
+    font-size: 15px;
+}
+
+
+/*footer styling */
+
+footer {
+    display: grid;
+    margin: auto;
+    max-width: 80vw;
+    height: 400px;
+    margin-top: 40px;
+  
+}
+
+
+
+footer div a{
+    color: white;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.footer{
+    margin-top: -50px;
+}
+
+.footer-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.footer-items{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-items a{
+    color: rgb(255 255 255 / 70%);
+    margin: 6px;
+}
+
+
+@media screen and (max-width:1250px){
+    .con{
+        
+        flex-wrap: wrap;
+ 
+    }
+
+
+    #content-4{
+        height: 650px;
+    }
+
+    .footer-body{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    
+}
+
+

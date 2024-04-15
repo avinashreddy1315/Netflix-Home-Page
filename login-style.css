@@ -1,0 +1,192 @@
+
+*{
+    color: white;
+}
+
+body{
+    background-image: url(../netflix-clone/images/login-bg.jpeg);
+    height: 159%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    width: 150%;
+    background-size: 140vw 220vh;
+    
+}
+
+.main1{
+    background-image: radial-gradient(transparent, black);
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin-left: -12px;
+    
+}
+
+#logo img{
+    width:180px;
+    margin-left: 60px;
+}
+
+
+#sign-box{
+    position: relative;
+    border-radius: 10px;
+    width: 450px;
+    height: 650px;
+    margin: auto;
+    padding: 70px;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 2;
+    gap: 15px;
+
+}
+
+#sign-form form dl dd input{
+    margin-top: 5px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 20px;
+    color: white;
+    background-color: rgb(58, 58, 58);
+    font-size: 16px;
+
+}
+
+#but button{
+    margin-top: 25px;
+    width: 100%;
+    background-color: red;
+    height: 45px;
+}
+
+
+#check{
+    font-size: 14px;
+    
+}
+
+#checkbox label{
+    color: rgb(154, 152, 152);
+}
+
+
+#check :nth-child(2) a{
+    text-decoration: none;
+    color:rgb(154, 152, 152); ;
+}
+
+#check :nth-child(2) a:hover{
+    text-decoration: underline;
+}
+
+#sign-box :nth-child(4){
+    margin-top: 70px;
+}
+
+#sign-box :nth-child(4) span{
+    color: rgb(154, 152, 152);
+}
+
+#sign-box :nth-child(4) a{
+    color:white;
+    text-decoration: none;
+}
+
+#sign-box :nth-child(4) a:hover{
+    text-decoration: underline;
+}
+
+
+
+footer{
+    margin-top: 140px;
+    height: 350px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(154, 152, 152);
+    padding-top: 20px;
+    font-size: 13px;
+}
+
+
+#foo{
+    margin: auto;
+    max-width: 70vw;
+    
+}
+
+
+#foo div{
+    color: rgb(154, 152, 152);
+}
+
+#foo div a{
+    text-decoration: none;
+    color: rgb(154, 152, 152);
+}
+
+#foo div a:hover{
+    text-decoration: underline;
+    
+}
+
+
+
+.footer-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.footer-items{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-items a{
+    color: rgb(154, 152, 152);
+    font-size: 14px;
+    margin: 6px;
+    text-decoration: none;
+}
+
+.footer-items a:hover{
+    
+    text-decoration: underline;
+}
+
+#foo :nth-child(1){
+    margin-top: 20px;
+}
+
+#adv{
+    margin-top: 30px;
+    
+}
+
+#adv a{
+    color: rgb(154, 152, 152);
+}
+
+#lang-button button{
+    color: white;
+    background-color: black;
+    border: 1px solid gray;
+    height: 50px;
+    width: 130px;
+}
+
+#dd{
+    border: 1px solid gray;
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+
+
+

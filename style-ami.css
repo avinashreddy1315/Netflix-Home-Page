@@ -1,0 +1,30 @@
+
+#sign-button button:hover{
+    background-color: rgb(135, 11, 11);
+}
+
+
+
+#lang-button button:focus{
+    outline: 1.5px solid white;
+    outline-offset: 2px;
+}
+
+#sub1 input:focus{
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
+
+#sub1 button:hover{
+    background-color: rgb(174, 10, 10);
+    transition: 1s;
+}
+
+.accordion-item:hover{
+    --bs-accordion-active-bg:#535252;
+}
+
+.accordion-item:focus{
+    --bs-accordion-active-bg:#535252;
+}
+
