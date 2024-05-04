@@ -11,7 +11,7 @@ This project showcases my ability to:
 
 # Demo
 
-You can view a live demo of the project [https://netflix-home-page.s3.us-east-2.amazonaws.com/index.html](#). *(Replace with the link to your live demo)*
+You can view a live demo of the project [https://netflix-home-page.s3.us-east-2.amazonaws.com/index.html](#). 
 
 # Key Features
 
