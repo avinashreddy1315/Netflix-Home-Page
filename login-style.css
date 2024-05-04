@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url(../netflix-clone/images/login-bg.jpeg);
+    background-image: url(./images/login-bg.jpeg);
     height: 159%;
     background-repeat: no-repeat;
     position: absolute;
