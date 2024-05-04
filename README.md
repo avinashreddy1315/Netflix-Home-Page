@@ -9,6 +9,10 @@ This project showcases my ability to:
 - Implement advanced features such as responsive navigation, carousel sliders, and grid layouts using Bootstrap components.
 - Incorporate custom CSS styles to enhance the visual aesthetics and responsiveness of the website.
 
+# Demo
+
+You can view a live demo of the project [https://netflix-home-page.s3.us-east-2.amazonaws.com/index.html](#). *(Replace with the link to your live demo)*
+
 # Key Features
 
 - Responsive Design:** The website is designed to be fully responsive, ensuring optimal viewing and interaction across a wide range of devices, including desktops, tablets, and mobile phones.
